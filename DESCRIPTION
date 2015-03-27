@@ -1,8 +1,10 @@
 Package: R4GA4GH
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph)
-Depends: R (>= 3.1.2)
-License: What license is it under?
-LazyData: true
+Type: Package
+Title: R Client for GA4GH API
+Version: 0.1
+Date: 2015-02-16
+Author: Jaclyn Smith
+Maintainer: Jaclyn Smith <smijac@ohsu.edu>
+Depends: httr, rjson
+Description: R functions to make REST calls to a GA4GH compliant database
+License: TODO
